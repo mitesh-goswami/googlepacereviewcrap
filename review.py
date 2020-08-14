@@ -42,7 +42,7 @@ for a in mydivs:
 
     textdoc.write(" \n||" + a.find("span" , class_="section-review-text").text + " \n|| " + a.find("span" ,
                                                                                                    class_="section-review-publish-date").text)
-    textdoc.write("=========================================\n")
+    textdoc.write("=====================\n")
     counter = counter + 1
 print("Total reviews scraped:" + str(counter))
 textdoc.close()
